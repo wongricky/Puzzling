@@ -32,7 +32,7 @@ public class PuzzleJava {
 		System.out.println("Shuffled List: " + namesList);
 		ArrayList<String> shortList = new ArrayList<String>();
 		for(int i = 0; i < namesArr.length; i ++) {
-			if (lengthOf(namesArr[i]) <= 5) {
+			if (lengthOf(namesArr[i]) > 5) {
 				shortList.add(namesArr[i]);
 			}
 		}
